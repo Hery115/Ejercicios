@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+<title>Factorial</title>
+</head>
+<body onload="factorial();">
+    <script type="text/javascript">
+      function factorial(){
+    var num = prompt("Ingresa un número: ");
+    var total = 1;
+    for(var i = 1; i <= num; i++){
+      total = total * i;
+    }
+    alert("El factorial del numero "+num+" es: "+total);
+  }
+    </script>
+    </body>
+</html>
